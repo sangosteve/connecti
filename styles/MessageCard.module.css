@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
+.details_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 8px;
+}
